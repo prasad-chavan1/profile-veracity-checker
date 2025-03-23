@@ -24,14 +24,14 @@ export const ResultsDisplay = ({ profileData, metrics, className }: ResultsDispl
           <MetricsCard 
             key={metric.title} 
             metric={metric}
-            className={{
+            className={cn({
               "opacity-0": true,
               "animate-[slide-up_0.4s_0.1s_forwards]": index === 0,
               "animate-[slide-up_0.4s_0.2s_forwards]": index === 1,
               "animate-[slide-up_0.4s_0.3s_forwards]": index === 2,
               "animate-[slide-up_0.4s_0.4s_forwards]": index === 3,
               "animate-[slide-up_0.4s_0.5s_forwards]": index === 4,
-            }[index] || ""}
+            })}
           />
         ))}
       </div>
