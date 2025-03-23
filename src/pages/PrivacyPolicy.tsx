@@ -7,35 +7,35 @@ const PrivacyPolicy = () => {
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-[#FAFAFA] to-[#F3F3F5]">
       <Navbar />
       
-      <main className="flex-1 container mx-auto max-w-4xl py-12 px-4">
-        <div className="text-center mb-12">
-          <h1 className="text-3xl font-bold mb-4 bg-gradient-to-r from-[#405DE6] via-[#5851DB] to-[#833AB4] bg-clip-text text-transparent">
+      <main className="flex-1 container mx-auto max-w-4xl py-8 md:py-12 px-4">
+        <div className="text-center mb-8 md:mb-12">
+          <h1 className="text-2xl md:text-3xl font-bold mb-3 md:mb-4 bg-gradient-to-r from-[#405DE6] via-[#5851DB] to-[#833AB4] bg-clip-text text-transparent">
             Privacy Policy
           </h1>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-sm md:text-base">
             Last updated: June 1, 2024
           </p>
         </div>
         
-        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8">
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Introduction</h2>
-            <p className="text-gray-600 mb-4">
+        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 md:p-8">
+          <section className="mb-6 md:mb-8">
+            <h2 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-gray-800">Introduction</h2>
+            <p className="text-gray-600 text-sm md:text-base mb-3 md:mb-4">
               At ProfileChecker, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our profile verification service.
             </p>
-            <p className="text-gray-600">
+            <p className="text-gray-600 text-sm md:text-base">
               Please read this Privacy Policy carefully. By accessing and using our service, you acknowledge that you have read, understood, and agree to be bound by all the terms of this Privacy Policy.
             </p>
           </section>
           
-          <Separator className="my-6" />
+          <Separator className="my-4 md:my-6" />
           
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Information We Collect</h2>
-            <p className="text-gray-600 mb-4">
+          <section className="mb-6 md:mb-8">
+            <h2 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-gray-800">Information We Collect</h2>
+            <p className="text-gray-600 text-sm md:text-base mb-3 md:mb-4">
               We collect information that you voluntarily provide when using our profile verification tool:
             </p>
-            <ul className="list-disc pl-6 space-y-2 text-gray-600">
+            <ul className="list-disc pl-5 md:pl-6 space-y-1 md:space-y-2 text-gray-600 text-sm md:text-base">
               <li>Instagram usernames</li>
               <li>Profile metrics (followers, following, posts count)</li>
               <li>Profile characteristics (presence of profile picture, display name)</li>
@@ -43,14 +43,14 @@ const PrivacyPolicy = () => {
             </ul>
           </section>
           
-          <Separator className="my-6" />
+          <Separator className="my-4 md:my-6" />
           
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">How We Use Your Information</h2>
-            <p className="text-gray-600 mb-4">
+          <section className="mb-6 md:mb-8">
+            <h2 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-gray-800">How We Use Your Information</h2>
+            <p className="text-gray-600 text-sm md:text-base mb-3 md:mb-4">
               We use the information we collect to:
             </p>
-            <ul className="list-disc pl-6 space-y-2 text-gray-600">
+            <ul className="list-disc pl-5 md:pl-6 space-y-1 md:space-y-2 text-gray-600 text-sm md:text-base">
               <li>Provide and maintain our service</li>
               <li>Analyze profile authenticity based on the metrics you provide</li>
               <li>Improve and optimize our verification algorithms</li>
@@ -60,32 +60,32 @@ const PrivacyPolicy = () => {
             </ul>
           </section>
           
-          <Separator className="my-6" />
+          <Separator className="my-4 md:my-6" />
           
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Data Retention</h2>
-            <p className="text-gray-600">
+          <section className="mb-6 md:mb-8">
+            <h2 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-gray-800">Data Retention</h2>
+            <p className="text-gray-600 text-sm md:text-base">
               We retain the information you provide only for as long as necessary to fulfill the purposes outlined in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.
             </p>
           </section>
           
-          <Separator className="my-6" />
+          <Separator className="my-4 md:my-6" />
           
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Security</h2>
-            <p className="text-gray-600">
+          <section className="mb-6 md:mb-8">
+            <h2 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-gray-800">Security</h2>
+            <p className="text-gray-600 text-sm md:text-base">
               We use appropriate administrative, technical, and physical safeguards to protect your information from unauthorized access, disclosure, alteration, and destruction. However, no internet or email transmission is ever fully secure or error-free, so you should take special care in deciding what information you send to us.
             </p>
           </section>
           
-          <Separator className="my-6" />
+          <Separator className="my-4 md:my-6" />
           
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Your Rights</h2>
-            <p className="text-gray-600 mb-4">
+          <section className="mb-6 md:mb-8">
+            <h2 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-gray-800">Your Rights</h2>
+            <p className="text-gray-600 text-sm md:text-base mb-3 md:mb-4">
               Depending on your location, you may have the following rights:
             </p>
-            <ul className="list-disc pl-6 space-y-2 text-gray-600">
+            <ul className="list-disc pl-5 md:pl-6 space-y-1 md:space-y-2 text-gray-600 text-sm md:text-base">
               <li>The right to access personal information we hold about you</li>
               <li>The right to request correction of inaccurate information</li>
               <li>The right to request deletion of your information</li>
@@ -95,34 +95,34 @@ const PrivacyPolicy = () => {
             </ul>
           </section>
           
-          <Separator className="my-6" />
+          <Separator className="my-4 md:my-6" />
           
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Changes to This Privacy Policy</h2>
-            <p className="text-gray-600">
+          <section className="mb-6 md:mb-8">
+            <h2 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-gray-800">Changes to This Privacy Policy</h2>
+            <p className="text-gray-600 text-sm md:text-base">
               We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top of this page. You are advised to review this Privacy Policy periodically for any changes.
             </p>
           </section>
           
-          <Separator className="my-6" />
+          <Separator className="my-4 md:my-6" />
           
           <section>
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Contact Us</h2>
-            <p className="text-gray-600">
+            <h2 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-gray-800">Contact Us</h2>
+            <p className="text-gray-600 text-sm md:text-base">
               If you have questions or concerns about this Privacy Policy, please contact us at:
             </p>
-            <div className="bg-gray-50 p-4 rounded-lg mt-4">
-              <p className="text-gray-700 font-medium">ProfileChecker</p>
-              <p className="text-gray-600">123 Social Media Street</p>
-              <p className="text-gray-600">New York, NY 10001</p>
-              <p className="text-gray-600">Email: privacy@profilechecker.com</p>
+            <div className="bg-gray-50 p-3 md:p-4 rounded-lg mt-3 md:mt-4">
+              <p className="text-gray-700 font-medium text-sm md:text-base">ProfileChecker</p>
+              <p className="text-gray-600 text-sm md:text-base">123 Social Media Street</p>
+              <p className="text-gray-600 text-sm md:text-base">New York, NY 10001</p>
+              <p className="text-gray-600 text-sm md:text-base">Email: privacy@profilechecker.com</p>
             </div>
           </section>
         </div>
       </main>
       
-      <footer className="bg-gray-50 py-8 border-t border-gray-100">
-        <div className="container mx-auto px-4 text-center text-gray-600">
+      <footer className="bg-gray-50 py-4 md:py-8 border-t border-gray-100 mt-8">
+        <div className="container mx-auto px-4 text-center text-gray-600 text-sm">
           <p>© 2024 ProfileChecker. All rights reserved.</p>
         </div>
       </footer>
